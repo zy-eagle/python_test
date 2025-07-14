@@ -21,7 +21,7 @@ fw.close()
 # read 1
 with open(file_name, mode="r", encoding="UTF-8") as f:
     content = f.read()
-    print(content)
+print(content)
 
 # read 2
 file_handler = open(file_name, mode="r", encoding="UTF-8")
